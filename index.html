@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Time Tracking Dashboard</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
@@ -23,77 +26,83 @@
             </ul>
         </div>
     </article>
-    <article class="time-card" id="work">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Work</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">32hrs</h1>
-                <h5 class="card-last-time">Last Week - 36hrs</h5>
-            </div>
+    <section id="time-cards">
+        <div class="card-segment">
+            <article class="time-card" id="work">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Work</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">32hrs</h1>
+                        <h5 class="card-last-time">Last Week - 36hrs</h5>
+                    </div>
+                </div>
+            </article>
+            <article class="time-card" id="play">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Play</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">10hrs</h1>
+                        <h5 class="card-last-time">Last Week - 8hrs</h5>
+                    </div>
+                </div>
+            </article>
+            <article class="time-card" id="study">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Study</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">4hrs</h1>
+                        <h5 class="card-last-time">Last Week - 7hrs</h5>
+                    </div>
+                </div>
+            </article>
         </div>
-    </article>
-    <article class="time-card" id="play">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Play</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">10hrs</h1>
-                <h5 class="card-last-time">Last Week - 8hrs</h5>
-            </div>
+        <div class="card-segment">
+            <article class="time-card" id="exercise">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Exercise</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">4hrs</h1>
+                        <h5 class="card-last-time">Last Week - 5hrs</h5>
+                    </div>
+                </div>
+            </article>
+            <article class="time-card" id="social">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Social</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">5hrs</h1>
+                        <h5 class="card-last-time">Last Week - 10hrs</h5>
+                    </div>
+                </div>
+            </article>
+            <article class="time-card" id="self-care">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <h4 class="card-title">Self Care</h4>
+                        <p class="card-menu">...</p>
+                    </div>
+                    <div class="card-text">
+                        <h1 class="card-time">2hrs</h1>
+                        <h5 class="card-last-time">Last Week - 2hrs</h5>
+                    </div>
+                </div>
+            </article>
         </div>
-    </article>
-    <article class="time-card" id="study">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Study</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">4hrs</h1>
-                <h5 class="card-last-time">Last Week - 7hrs</h5>
-            </div>
-        </div>
-    </article>
-    <article class="time-card" id="exercise">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Exercise</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">4hrs</h1>
-                <h5 class="card-last-time">Last Week - 5hrs</h5>
-            </div>
-        </div>
-    </article>
-    <article class="time-card" id="social">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Social</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">5hrs</h1>
-                <h5 class="card-last-time">Last Week - 10hrs</h5>
-            </div>
-        </div>
-    </article>
-    <article class="time-card" id="self-care">
-        <div class="card-content">
-            <div class="card-heading">
-                <h4 class="card-title">Self Care</h4>
-                <p class="card-menu">...</p>
-            </div>
-            <div class="card-text">
-                <h1 class="card-time">2hrs</h1>
-                <h5 class="card-last-time">Last Week - 2hrs</h5>
-            </div>
-        </div>
-    </article>
+    </section>
 </body>
 </html>

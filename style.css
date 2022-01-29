@@ -17,5 +17,76 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     background-color: var(--very-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Rubik', sans-serif;
+    flex-wrap: wrap;
+}
+
+#overview {
+    background-color: var(--dark-blue);
+}
+
+section#time-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-segment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+}
+
+@media (max-width: 400px) {
+    .card-segment {
+        flex-direction: column;
+    }
+}
+
+.time-card {
+    flex: 150px 2 1;
+    max-width: 300px;
+}
+
+.card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#work {
+    background-color: var(--orange);
+}
+
+#play {
+    background-color: var(--soft-blue);
+}
+
+#study {
+    background-color: var(--light-red);
+}
+
+#exercise {
+    background-color: var(--lime-green);
+}
+
+#social {
+    background-color: var(--violet);
+}
+
+#self-care {
+    background-color: var(--yellow);
 }
