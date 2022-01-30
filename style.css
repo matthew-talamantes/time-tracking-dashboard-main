@@ -42,23 +42,22 @@ section#time-cards {
 }
 
 .card-segment {
+    /* flex: 1 0 200px; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
 @media (max-width: 400px) {
     .card-segment {
-        flex-direction: column;
     }
 }
 
 .time-card {
-    flex: 150px 2 1;
-    max-width: 300px;
+    flex: 1 1 300px;
 }
 
 .card-heading {
